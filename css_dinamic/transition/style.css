@@ -1,0 +1,21 @@
+div {
+    transition: all 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.5s;
+    padding:0%;
+    margin: 0%;
+   display: inline-block;
+   
+ /*   transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);*/
+  
+}
+div:hover {
+   perspective: 1500;
+    padding:0%;
+    margin: 0%;
+    font-size: 10rem;
+    transform: rotateY(-80deg);
+    color: yellowgreen;
+    background-color: maroon;
+    border: 1px, solid;
+}

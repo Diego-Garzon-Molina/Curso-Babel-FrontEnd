@@ -1,0 +1,26 @@
+@keyframes colores {
+    0% { background-color: red}
+    25% { background: silver}
+    50% {background-color: tan}
+    75% { background-color: seagreen}
+    100% { background-color: violet}
+}
+@keyframes movimiento {
+    0% {top:10rem; left:10rem;}
+    25%{top:0rem; left:0rem;}
+    50%{top:20rem;left: 45rem;}
+    100% {top:10rem;left:10rem;}
+}
+
+div.animado {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    background-color: violet;
+    margin:10rem;
+    width: 20%;
+    height: 20vh;
+    border: 1px solid;
+    animation: colores 5s, movimiento 5s;
+    animation-iteration-count: infinite
+}
